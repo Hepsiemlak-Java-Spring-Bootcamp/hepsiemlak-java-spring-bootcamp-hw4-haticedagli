@@ -19,7 +19,9 @@ belirten makale yazın. (5 PUAN)
 • Redis
 
 
+Docker ile MySQL'i çalıştırmak için ----->
 
+docker run -p 3307:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
 
 
 Database Tablolarım (Hepsinin değil bazılarının görselleri bulunmaktadır.) :
